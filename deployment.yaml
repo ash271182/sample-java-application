@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: java-ui-app
-          image: myregistry/java-ui-app:latest
+          image: docker.io/ash271182/java-ui-app:latest
           ports:
             - containerPort: 8080
 ---
